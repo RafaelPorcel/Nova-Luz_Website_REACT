@@ -1,13 +1,141 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/*para el hover del menú*/
+.navbar .navbar-nav .nav-item:hover{
+    background-color: red;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar{
+  margin-bottom: 15px;
+}
+
+body{
+    background: url(/public/img/fondo2.jpg) no-repeat;
+    background-size: cover;
+}
+
+.tarjetas{
+    padding: 10px;
+}
+
+.card{
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.card .card-body p{
+    text-align: justify;
+}
+
+.card .card-body h3{
+  text-align: left;
+}
+
+.card a{
+    background-color: rgb(192, 45, 45);
+    border: none;
+    color: white;
+    width: 50%;
+}
+
+.card a:hover{
+  color: black;
+  background-color: rgb(192, 45, 45);
+  }
+
+.card .card-body .btn-primary{
+  text-align: left;
+}
+
+.card .card-body a{
+  text-align: left;
+}
+
+.direccion .fa-ul .correo a{
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(90deg, rgb(192, 45, 45) 0%, rgb(255, 255, 255) 50%, rgb(192, 45, 45) 100%);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+.direccion .fa-ul .maps a{
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(90deg, rgb(192, 45, 45) 0%, rgb(255, 255, 255) 50%, rgb(192, 45, 45) 100%);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+.direccion .fa-ul .correo a:hover, a:focus{
+    background-size: 100% 2px;
+}
+
+.direccion .fa-ul .maps a:hover, a:focus{
+    background-size: 100% 2px;
+}
+
+.direccion .fa-ul .telefono a{
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(90deg, rgb(192, 45, 45) 0%, rgb(255, 255, 255) 50%, rgb(192, 45, 45) 100%);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+.direccion .fa-ul .telefono a:hover, a:focus{
+    background-size: 100% 2px;
+}
+
+.direccion .fa-ul .whatsapp a{
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(90deg, rgb(192, 45, 45) 0%, rgb(255, 255, 255) 50%, rgb(192, 45, 45) 100%);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+.direccion .fa-ul .whatsapp a:hover, a:focus{
+    background-size: 100% 2px;
+}
+
+.carrusel{
+    margin-top: 5%;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.card-body a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(192, 45, 45);
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    filter: invert(108%);
+  }
+
+.carousel-indicators{
+    filter: invert(108%);
+}
+
+main .ofertas_h4{
+    color: #7f3737;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.formularios .btn{
+    background-color: rgb(192, 45, 45);
+    border: none;
+    color: white;
 }
