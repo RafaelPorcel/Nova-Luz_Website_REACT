@@ -3,15 +3,13 @@
     background-color: red;
 }
 
-body{
-    background: url(img/fondo2.jpg) no-repeat;
-    background-size: cover;
+.navbar{
+  margin-bottom: 15px;
 }
 
-.section .titulo_sobre h1{
-    color: rgb(192, 45, 45);
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 50px;
+body{
+    background: url(/public/img/fondo2.jpg) no-repeat;
+    background-size: cover;
 }
 
 .tarjetas{
@@ -21,16 +19,36 @@ body{
 .card{
     padding: 10px;
     margin: 10px;
-   
-}
-
-.card .card-body a{
-    background-color: rgb(192, 45, 45);
-    border: none;
+    text-align: justify;
+    margin-bottom: 10px;
 }
 
 .card .card-body p{
     text-align: justify;
+}
+
+.card .card-body h3{
+  text-align: left;
+}
+
+.card a{
+    background-color: rgb(192, 45, 45);
+    border: none;
+    color: white;
+    width: 50%;
+}
+
+.card a:hover{
+  color: black;
+  background-color: rgb(192, 45, 45);
+  }
+
+.card .card-body .btn-primary{
+  text-align: left;
+}
+
+.card .card-body a{
+  text-align: left;
 }
 
 .direccion .fa-ul .correo a{
@@ -89,7 +107,40 @@ body{
     background-size: 100% 2px;
 }
 
-main .texto{
+.carrusel{
+    margin-top: 5%;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.card-body a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(192, 45, 45);
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    filter: invert(108%);
+  }
+
+.carousel-indicators{
+    filter: invert(108%);
+}
+
+main .ofertas_h4{
+    color: #7f3737;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.formularios .btn{
+    background-color: rgb(192, 45, 45);
+    border: none;
+    color: white;
+}
+
+.texto{
     display: flex;
     width: 100%;
     align-items: center;
@@ -100,7 +151,7 @@ main .texto{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-main .texto .parrafo_nosotros{
+.texto .parrafo_nosotros{
     font-size: 18px;
     text-align: justify;
 }
