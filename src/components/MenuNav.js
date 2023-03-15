@@ -24,7 +24,7 @@ const MenuNav = () => {
                             <Link className="nav-link active" to="/aboutUs">Nosotros/Contacto</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link active" href="productos.php">Productos</a>
+                            <a className="nav-link active" href=" ">Productos</a>
                         </li>
                     </ul>
                 </div>

@@ -1,4 +1,4 @@
-export const dataItem = [
+export const CarouselItems = [
     {
         img: "img/ofertas/oferta_1.jpg",
         alt: "ventilador-trajano",

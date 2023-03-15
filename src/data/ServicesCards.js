@@ -1,4 +1,4 @@
-export const cards = [
+export const ServicesCards = [
     {
         image: "/img/card_servicios/card_S_1.jpg",
         alt: "productos_bombillas",

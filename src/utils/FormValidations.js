@@ -1,4 +1,4 @@
-export function validateForm() {
+export function FormValidations() {
     var nombre =  document.getElementById('name').value;
     if (nombre === "") {
         document.getElementById('status').innerHTML = "Debe introducir 'Nombre'";

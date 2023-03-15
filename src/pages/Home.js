@@ -1,16 +1,16 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import MenuNav from '../components/MenuNav';
-import Main from '../components/home_comp/Main_home';
+import MainContent from '../features/home/MainContent';
 import Footer from '../components/Footer';
 
-function Index() {
+function Home() {
   return (
     <div>
       <MenuNav></MenuNav>
-      <Main></Main>
+      <MainContent></MainContent>
       <Footer></Footer>
     </div>
   );
 }
 
-export default Index;
+export default Home;

@@ -1,4 +1,4 @@
-const Text = () => {
+const CompanyDescription = () => {
     return (
         <div className="container">
             <div className="row align-items-center">
@@ -28,4 +28,4 @@ const Text = () => {
         </div>
     );
 };
-export default Text;
+export default CompanyDescription;

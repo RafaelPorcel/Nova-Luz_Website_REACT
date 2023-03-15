@@ -1,4 +1,4 @@
-const Text = () => {
+const AnnounceOffer = () => {
     return (
         <div>
         <h4 class="ofertas_h4">Desde nuestra sección de OFERTAS podrás mantenerte informado de 
@@ -7,4 +7,4 @@ const Text = () => {
         </div>
     );
 };
-export default Text;
+export default AnnounceOffer;

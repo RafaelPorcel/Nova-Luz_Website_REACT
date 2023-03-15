@@ -1,4 +1,4 @@
-const Map = () => {
+const CompanyMapLocation = () => {
     return (
         <section class="mb-4 container">
             <div class="mapa_nova row align-items-center">
@@ -12,4 +12,4 @@ const Map = () => {
         </section>
     );
 };
-export default Map;
+export default CompanyMapLocation;

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import { validateForm } from "./Validator_form";
+import { FormValidations } from "../../utils/FormValidations";
 
-const Form = () => {
+const FormContact = () => {
     return (
         <section class="mb-4 formulario container">
 
@@ -57,7 +57,7 @@ const Form = () => {
                         </form>
 
                         <div className="text-center text-md-left">
-                            <button className="btn btn-primary" onClick={validateForm}>Enviar</button>
+                            <button className="btn btn-primary" onClick={FormValidations}>Enviar</button>
                         </div>
                         <div id="status"></div>
                     </div>
@@ -100,4 +100,4 @@ const Form = () => {
         </section>
     );
 };
-export default Form;
+export default FormContact;

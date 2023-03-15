@@ -4,7 +4,7 @@ import Services from './pages/Services';
 import Offers from './pages/Offers';
 import AboutUs from './pages/AboutUs';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Map from './components/aboutUs_comp/Map_aboutUS';
+import CompanyMapLocation from './features/aboutUs/CompanyMapLocation';
 
 const router = createBrowserRouter([
   {
@@ -25,7 +25,7 @@ const router = createBrowserRouter([
   },
   {
     path: '/mapAboutUs',
-    element: <Map></Map>
+    element: <CompanyMapLocation></CompanyMapLocation>
   },
 ]);
 

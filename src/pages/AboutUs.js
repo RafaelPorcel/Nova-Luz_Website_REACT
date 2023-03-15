@@ -1,12 +1,12 @@
 import MenuNav from "../components/MenuNav";
-import Main from "../components/aboutUs_comp/Main_aboutUs";
+import MainContent from "../features/aboutUs/MainContent";
 import Footer from "../components/Footer";
 
 const AboutUs = () => {
     return (
         <div>
             <MenuNav></MenuNav>
-            <Main></Main>
+            <MainContent></MainContent>
             <Footer></Footer>
         </div>
     );

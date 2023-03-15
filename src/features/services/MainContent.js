@@ -1,13 +1,13 @@
-import Card from './Card_services';
-import {cards} from './dataCards_services.js';
+import Card from './Card';
+import { ServicesCards } from '../../data/ServicesCards';
 
-const Main = (props) => {
+const MainContent = (props) => {
     return(
         <div className="card mb-3">
-            {cards.map(card => (
+            {ServicesCards.map(card => (
                 <Card image={card.image} alt={card.alt} title={card.title} message={card.message} />
             ))}
         </div>
     )
 }
-export default Main;
+export default MainContent;
